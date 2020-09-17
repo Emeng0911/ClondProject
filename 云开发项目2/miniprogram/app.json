@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/ask_doctor/index",
+    "pages/usercenter/index",
+    "pages/search/index",
+    "pages/search_symptom/index",
+    "pages/shoucang/index",
+    "pages/lishi/index",
+    "pages/bingli/index",
+    "pages/binglixiugai/index",
+    "pages/chat/index"
+  ],
+  "window": {
+    "backgroundColor": "#C2BCA9",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#C2BCA9",
+    "navigationBarTitleText": "疾病自查",
+    "navigationBarTextStyle": "black"
+
+
+  },
+  "tabBar": {
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/index.png",
+        "selectedIconPath": "icons/index1.png"
+      },
+      {
+        "pagePath": "pages/ask_doctor/index",
+        "text": "咨询医生",
+        "iconPath": "icons/doctor.png",
+        "selectedIconPath": "icons/doctor1.png"
+      },
+      {
+        "pagePath": "pages/usercenter/index",
+        "text": "个人中心",
+        "iconPath": "icons/user.png",
+        "selectedIconPath": "icons/user1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
